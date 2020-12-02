@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.userdashboardactivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UserdashboardActivity">
+        <activity android:name=".Maintainproduct"></activity>
+        <activity android:name=".Allproducts" />
+        <activity android:name=".Productsaddedtocart" />
+        <activity android:name=".AddToCart" />
+        <activity android:name=".Addproduct" />
+        <activity android:name=".AdmindashboardActivity" />
+        <activity
+            android:name=".UserdashboardActivity"
+            android:label="Home"
+            android:theme="@style/Theme.UserdashboardActivity.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+    </application>
+
+</manifest>

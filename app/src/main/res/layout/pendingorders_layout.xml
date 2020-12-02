@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/Pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomato"
+        android:textColor="@color/black"
+        android:layout_weight="2"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/Ppriceandquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000[3]"
+        android:textColor="@color/black"
+        android:layout_weight="2"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/Ptotalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3000"
+        android:layout_weight="2"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/RemoveProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="1"
+
+        />
+
+</LinearLayout>

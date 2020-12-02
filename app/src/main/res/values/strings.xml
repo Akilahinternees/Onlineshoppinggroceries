@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Online Shopping Groceries</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Esther Tuyizere</string>
+    <string name="nav_header_subtitle">tuyizereesther@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_notifications">Notification</string>
+
+    <string name="new_credentials">Forget Password</string>
+    <string name="credentials">New Credentials</string>
+    <string name="thanking">Your Order will be sent soon. For any questions or further information about your order, please contact our customer support via: +250786534222</string>
+
+
+</resources>
